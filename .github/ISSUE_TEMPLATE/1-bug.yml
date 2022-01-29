@@ -94,10 +94,11 @@ body:
       description: What package manager are you using?
       multiple: true
       options:
-        - npm v6
-        - npm v7
-        - yarn v1
-        - yarn v2
+        - npm 8
+        - npm 7
+        - npm 6
+        - yarn 2
+        - yarn 1
         - pnpm
         - Other (please specify in steps to reproduce)
     validations:
