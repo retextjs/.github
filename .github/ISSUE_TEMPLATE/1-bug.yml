@@ -1,16 +1,14 @@
 name: 🐛 Bug report
-description: Describe a problem
-
+description: Describe a bug with a project
 body:
   - type: markdown
     attributes:
       value: |
         Some general tips:
 
-        - Is this really a problem?
-        - Is this a problem here?
-        - Can this be solved in a different way?
-
+        * Is this really a problem?
+        * Is this a problem here?
+        * Can this be solved in a different way?
   - type: checkboxes
     id: initial-checklist
     attributes:
@@ -24,7 +22,6 @@ body:
           required: true
         - label: I searched [issues](https://github.com/search?q=user%3Aretextjs&type=Issues) and couldn’t find anything (or linked relevant results below)
           required: true
-
   - type: input
     id: affected-versions
     attributes:
@@ -32,7 +29,6 @@ body:
       description: Please test using the latest version of the relevant packages to make sure your issue has not already been fixed.
     validations:
       required: true
-
   - type: input
     id: runnable-example
     attributes:
@@ -42,7 +38,6 @@ body:
         Alternatively, use the next section *Steps to reproduce*.
     validations:
       required: false
-
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -50,7 +45,6 @@ body:
       description: How did this happen? Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
     validations:
       required: true
-
   - type: textarea
     id: expected-behavior
     attributes:
@@ -58,83 +52,54 @@ body:
       description: What should happen?
     validations:
       required: true
-
-  - type: textarea
-    id: actual-behavior
+  - type: input
+    id: runtime
     attributes:
-      label: Actual behavior
-      description: What happens instead?
+      label: Affected runtime and version
+      description: |
+        What runtime are you using (e.g., `node@18.2`, `deno@1.12.2`)?
+        Please test using the latest version.
     validations:
       required: true
-
-  - type: dropdown
-    id: javascript-runtime
-    attributes:
-      label: Runtime
-      description: |
-        What JavaScript runtime are you using to build or run the code?
-        **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 is required.
-      multiple: true
-      options:
-        - Node v16
-        - Node v14
-        - Node v12
-        - Deno v1
-        - Electron v13
-        - Electron v12
-        - Electron v11
-        - Other (please specify in steps to reproduce)
-    validations:
-      required: false
-
-  - type: dropdown
+  - type: input
     id: package-manager
     attributes:
-      label: Package manager
-      description: What package manager are you using?
-      multiple: true
-      options:
-        - npm 8
-        - npm 7
-        - npm 6
-        - yarn 2
-        - yarn 1
-        - pnpm
-        - Other (please specify in steps to reproduce)
+      label: Affected package manager and version
+      description: |
+        What package manager are you using (e.g., `npm@8.9.0`)?
+        Please test using the latest version.
     validations:
       required: false
-
-  - type: dropdown
+  - type: input
     id: operating-system
     attributes:
-      label: OS
-      description: What operating system are you using?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - macOS
-        - Other (please specify in steps to reproduce)
+      label: Affected OS and version
+      description: |
+        What operating system are you using (e.g., `macOS Monterey 12.4`)?
+        Please test using the latest version.
     validations:
       required: false
-
   - type: dropdown
     id: build-tools
     attributes:
       label: Build and bundle tools
-      description: What, if any, tools are used to build or bundle the project?
+      description: |
+        What, if any, tools are used to build or bundle the project?
+        Please test using the latest version.
       multiple: true
       options:
-        - Webpack
+        - webpack
         - Rollup
         - esbuild
+        - swc
         - Parcel
-        - Create React App
-        - Gatsby
-        - Next.js
-        - Docusaurus
-        - Snowpack
+        - CRA (Create React App)
         - Vite
+        - Next.js
+        - Remix
+        - Astro
+        - Docusaurus
+        - Gatsby
         - Other (please specify in steps to reproduce)
     validations:
       required: false
