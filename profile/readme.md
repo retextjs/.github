@@ -46,11 +46,11 @@ that work with content as structured data.
 
 [collective]: https://github.com/unifiedjs/collective
 
-[coc]: https://github.com/unifiedjs/.github/blob/main/code-of-conduct.md
+[coc]: https://github.com/retextjs/.github/blob/main/code-of-conduct.md
 
-[support]: https://github.com/unifiedjs/.github/blob/main/support.md
+[support]: https://github.com/retextjs/.github/blob/main/support.md
 
-[contribute]: https://github.com/unifiedjs/.github/blob/main/contributing.md
+[contribute]: https://github.com/retextjs/.github/blob/main/contributing.md
 
 [oc]: https://opencollective.com/unified
 
