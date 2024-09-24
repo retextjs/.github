@@ -4,27 +4,27 @@
 language with plugins.
 Plugins can inspect and change prose.
 
-*   we use [nlcst][] as the syntax tree
-*   to find plugins, see [`awesome-retext`][awesome], the
-    [list of plugins][plugins], and the [`retext-plugin` topic][topic]
+* we use [nlcst][] as the syntax tree
+* to find plugins, see [`awesome-retext`][awesome], the
+  [list of plugins][plugins], and the [`retext-plugin` topic][topic]
 
 #### unified
 
 retext is part of the unified collective, which brings together organisations
 that work with content as structured data.
 
-*   for more about us, see [`unifiedjs.com`][site]
-*   for how the collective is governed, see [`unifiedjs/collective`][collective]
-*   for updates, see [@unifiedjs][twitter] on Twitter
+* for more about us, see [`unifiedjs.com`][site]
+* for how the collective is governed, see [`unifiedjs/collective`][collective]
+* for updates, see [@unifiedjs][twitter] on Twitter
 
 #### Get involved
 
 > 👉 **Note**: By interacting with this organization or community you agree to
 > abide by our [code of conduct][coc].
 
-*   for questions, see [support][]
-*   to help, see [contribute][]
-*   to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
+* for questions, see [support][]
+* to help, see [contribute][]
+* to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
 
 [logo]: https://raw.githubusercontent.com/retextjs/retext/3420f05/logo.svg?sanitize=true
 
