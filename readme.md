@@ -1,61 +1,55 @@
 # `.github`
 
 Community health files for **retext**.
-This repo hosts the [code of conduct][coc], a guide on how to get [support][],
-how to [contribute][], a [pull request template][pr], and [issue
-templates][issue].
 
 ## unified
 
-**retext** is a [unified collective][unified] project.
-Read how it’s governed in [`unifiedjs/collective`][collective].
+This organization is part of **[unified][github-unified]**.
+See [`unifiedjs/collective`][github-collective] on how it’s governed.
 
 ## Awesome retext
 
-For a curated list of awesome retext resources, see [awesome retext][awesome].
-
-## Support
-
-We’re glad you’re using these projects and we’d love to help.
-Take a look at [`support.md`][support] to find out how to help us help you.
-
-## Contributing
-
-We’re excited that you’re interested in contributing!
-Take a moment to read [`contributing.md`][contribute].
-
-Ideas for new plugins and tools can be posted in [`retextjs/ideas`][ideas].
+See [`retextjs/awesome-retext`][github-awesome-retext] for a
+curated list of awesome resources.
 
 ## Code of conduct
 
-This project has a [code of conduct][coc].
-By interacting with this repository, organization, or community you agree to
-abide by its terms.
+This community has a [code of conduct][file-code-of-conduct].
+You must follow it when interacting with the community.
+
+## Support
+
+See [`support.md`][file-support] on how to get help.
+
+## Contributing
+
+See [`contributing.md`][file-contributing] on how to contribute.
+
+## Security
+
+See [`security.md`][file-security] if you found a security issue.
 
 ## License
 
-[CC-BY-4.0][license] © [Titus Wormer][author].
+This document has the following license:
+[CC-BY-4.0][creativecommons-by] © [Titus Wormer][wooorm].
 
-<!-- Definitions -->
+Other projects may be licensed differently.
 
-[license]: https://creativecommons.org/licenses/by/4.0/
+[creativecommons-by]: https://creativecommons.org/licenses/by/4.0/
 
-[author]: https://wooorm.com
+[file-code-of-conduct]: code-of-conduct.md
 
-[coc]: code-of-conduct.md
+[file-contributing]: contributing.md
 
-[contribute]: contributing.md
+[file-security]: security.md
 
-[support]: support.md
+[file-support]: support.md
 
-[pr]: .github/pull-request-template.md
+[github-awesome-retext]: https://github.com/retextjs/awesome-retext
 
-[issue]: .github/ISSUE_TEMPLATE
+[github-collective]: https://github.com/unifiedjs/collective
 
-[ideas]: https://github.com/retextjs/ideas
+[github-unified]: https://github.com/unifiedjs
 
-[awesome]: https://github.com/retextjs/awesome-retext
-
-[unified]: https://github.com/unifiedjs
-
-[collective]: https://github.com/unifiedjs/collective
+[wooorm]: https://wooorm.com
